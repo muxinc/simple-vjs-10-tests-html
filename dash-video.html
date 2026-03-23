@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VJS v10 — DASH Video</title>
-    <link id="skin-css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@videojs/html@10.0.0-beta.6/dist/default/define/video/skin.css" />
+    <link id="skin-css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@videojs/html@10.0.0-beta.9/dist/default/define/video/skin.css" />
     <style>
       body { font-family: ui-sans-serif, system-ui, sans-serif; margin: 0; background: #111; color: #fff; }
       header { display: flex; align-items: center; gap: 1rem; padding: 0.75rem 1rem; background: #1a1a1a; }
@@ -26,13 +26,13 @@
       #player-root { width: 100%; max-width: 960px; }
     </style>
     <script type="module">
-      import 'https://esm.sh/@videojs/html@10.0.0-beta.6/video/player';
-      import 'https://esm.sh/@videojs/html@10.0.0-beta.6/media/dash-video';
-      import 'https://esm.sh/@videojs/html@10.0.0-beta.6/video/skin';
-      import 'https://esm.sh/@videojs/html@10.0.0-beta.6/video/minimal-skin';
+      import 'https://esm.sh/@videojs/html@10.0.0-beta.9/video/player';
+      import 'https://esm.sh/@videojs/html@10.0.0-beta.9/media/dash-video';
+      import 'https://esm.sh/@videojs/html@10.0.0-beta.9/video/skin';
+      import 'https://esm.sh/@videojs/html@10.0.0-beta.9/video/minimal-skin';
 
       const SRC = 'https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd';
-      const CSS_BASE = 'https://cdn.jsdelivr.net/npm/@videojs/html@10.0.0-beta.6/dist/default/define/video/';
+      const CSS_BASE = 'https://cdn.jsdelivr.net/npm/@videojs/html@10.0.0-beta.9/dist/default/define/video/';
       let currentSkin = 'default';
 
       function render() {
